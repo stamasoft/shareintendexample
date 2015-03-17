@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="always"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/phone"
+        android:title="@string/phone"
+        android:icon="@drawable/phone"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/computer"
+        android:title="@string/computer"
+        android:icon="@drawable/phone"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/gamepad"
+        android:title="@string/gamepad"
+        android:icon="@drawable/gamepad"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/camera"
+        android:title="@string/camera"
+        android:icon="@drawable/gamepad"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/video"
+        android:title="@string/video"
+        android:icon="@drawable/video"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/email"
+        android:title="@string/email"
+        android:icon="@drawable/email"
+        app:showAsAction="always" />
+
+
+
+
+
+
+
+
+</menu>
