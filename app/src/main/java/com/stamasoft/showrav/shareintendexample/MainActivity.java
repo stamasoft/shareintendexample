@@ -21,7 +21,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
     private static final String FORECAST_SHARE_HASHTAG =null ;
-   // private String mForecastStr;
+   // private String mForecastStr mForecastStr;
 
     ListView listView ;
 

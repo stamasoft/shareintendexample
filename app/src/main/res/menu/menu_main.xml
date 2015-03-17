@@ -29,6 +29,8 @@
         android:icon="@drawable/gamepad"
         app:showAsAction="always" />
 
+
+
     <item
         android:id="@+id/camera"
         android:title="@string/camera"
